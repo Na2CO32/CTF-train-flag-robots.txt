@@ -1,0 +1,9 @@
+my-ctf-lab/               # 專案根目錄
+├── app.py                # 你的 Python 主程式
+├── requirements.txt      # 記錄套件清單 (告訴 Render 要安裝 Flask)
+├── Dockerfile            # 告訴 Render 如何打包你的環境
+├── static/               # 靜態資源資料夾
+│   └── robots.txt        # 裡面放編碼後的路由
+└── templates/            # 存放 HTML 的資料夾
+    ├── index.html        # 首頁
+    └── flag.html         # 藏 Flag 的頁面
